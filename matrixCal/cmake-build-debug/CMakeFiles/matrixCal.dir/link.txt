@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\matrixCal.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\matrixCal.dir/objects.a @CMakeFiles\matrixCal.dir\objects1.rsp
+D:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\matrixCal.dir/objects.a -Wl,--no-whole-archive  -o matrixCal.exe -Wl,--out-implib,libmatrixCal.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\matrixCal.dir\linklibs.rsp
